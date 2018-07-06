@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Name of Animal :"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:background="#91e234"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginStart="105dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="#f43a10"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Organ Affected"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:background="#91e234"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignTop="@+id/textView4"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="#f43a10"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Type of Parasite"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:background="#91e234"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignTop="@+id/textView6"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="#f43a10"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="40dp"
+        android:text="Parasite :"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:background="#91e234"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignTop="@+id/textView8"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="#f43a10"/>
+
+
+</RelativeLayout>

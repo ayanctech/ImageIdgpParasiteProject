@@ -1,0 +1,53 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Species Name :"
+        android:layout_margin="10dp"/>
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/nmspn"
+        android:hint="Name of the Species"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:onClick="go"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear All Fields"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chemical Group :"
+        android:layout_margin="10dp"/>
+
+    <ExpandableListView
+        android:id="@+id/listview_cgroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:divider="#d1d1d1"
+        android:dividerHeight="10dp"
+        android:paddingBottom="10dp"/>
+
+</LinearLayout>
