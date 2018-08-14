@@ -18,15 +18,16 @@ public class ScientificName extends AppCompatActivity {
 
     private List<String> animals;
     DataBaseHelper myDbHelper;
-    String nam="Opossum",scnam;
+    String nam="Arctic fox",scnam;
     private static final String DATABASE_NAME = "sname.sqlite";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scientific_name);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        myDbHelper = new DataBaseHelper(this,DATABASE_NAME);
+
+
+        myDbHelper = new DataBaseHelper(ScientificName.this,DATABASE_NAME);
        // myDbHelper = new DataBaseHelper(this);
 
         animals=myDbHelper.getAnimalList();

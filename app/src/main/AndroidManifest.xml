@@ -23,29 +23,32 @@
             </intent-filter>
         </activity>
         <activity android:name=".OptionsPage" />
-        <activity android:name=".GenusLevel"
-            android:parentActivityName=".OptionsPage"/>
-        <activity android:name=".SpeciesLevel"
-            android:parentActivityName=".OptionsPage"/>
-        <activity android:name=".Treatment"
-            android:parentActivityName=".OptionsPage"/>
+        <activity
+            android:name=".GenusLevel"
+            android:parentActivityName=".OptionsPage" />
+        <activity
+            android:name=".SpeciesLevel"
+            android:parentActivityName=".OptionsPage" />
+        <activity
+            android:name=".Treatment"
+            android:parentActivityName=".OptionsPage" />
         <activity
             android:name=".Diagnosis"
-            android:parentActivityName=".OptionsPage"/>
-         <!--   android:theme="@style/generalnotitle"
-         -->
+            android:parentActivityName=".OptionsPage" />
+        <!-- android:theme="@style/generalnotitle" -->
 
-
-        <activity android:name=".HostParasiteDatabase"
-            android:parentActivityName=".OptionsPage"/>
-
+        <activity
+            android:name=".HostParasiteDatabase"
+            android:parentActivityName=".OptionsPage" />
         <activity android:name=".ScientificName" />
         <activity android:name=".Acknowledgements" />
-        <activity android:name=".References"
-            android:parentActivityName=".OptionsPage"/>
+        <activity
+            android:name=".References"
+            android:parentActivityName=".OptionsPage" />
         <activity
             android:name=".Plasmodium"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape"
+            android:theme="@style/generalnotitle"/>
         <activity
             android:name=".popup_layout"
             android:theme="@android:style/Theme.Holo.Light.Dialog" />
@@ -56,7 +59,9 @@
         -->
         <activity android:name=".Apicomplexa" />
         <activity android:name=".popup2" />
-        <activity android:name=".Sercomastigophora"></activity>
+        <activity android:name=".Sercomastigophora" />
+        <activity android:name=".proj_ack" />
+        <activity android:name=".devack"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -11,9 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Main menu"
-        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#050c18"
+        android:textSize="30sp"
         android:gravity="center"
-        android:layout_marginBottom="60dp"/>
+        android:layout_marginBottom="40dp"/>
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,23 +27,28 @@
         android:gravity="center">
     <Button
         android:id="@+id/genus"
+        android:background="#e7241d"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Genus Level"
         android:padding="20dp"
         android:onClick="GenusLevel"
-        />
+        android:layout_marginBottom="10dp"/>
 
     <Button
         android:id="@+id/species"
+        android:background="#dcea11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Species Level"
         android:padding="20dp"
-        android:onClick="SpeciesLevel"/>
+        android:onClick="SpeciesLevel"
+        android:layout_marginBottom="10dp"/>
 
     <Button
         android:id="@+id/treatment"
+        android:background="#12701a"
+        android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Treatment"
@@ -45,22 +56,28 @@
         android:onClick="Treatment"/>
     <Button
         android:id="@+id/diagnosis"
+        android:background="#48f122"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diagnosis"
         android:padding="20dp"
-        android:onClick="Diagnosis"/>
+        android:onClick="Diagnosis"
+        android:layout_marginBottom="10dp"/>
 
     <Button
         android:id="@+id/hostparadb"
+        android:background="#22aff1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Host Parasite Database"
         android:padding="20dp"
-        android:onClick="HostParasiteDatabase"/>
+        android:onClick="HostParasiteDatabase"
+        android:layout_marginBottom="10dp"/>
 
     <Button
         android:id="@+id/scname"
+        android:background="#c822f1"
+        android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Scientific Name"
@@ -69,18 +86,22 @@
 
     <Button
         android:id="@+id/ack"
+        android:background="#2230f1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Acknowledgements"
         android:padding="20dp"
-        android:onClick="Acknowledgements"/>
+        android:onClick="Acknowledgements"
+        android:layout_marginBottom="10dp"/>
 
     <Button
         android:id="@+id/references"
+        android:background="#f12259"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="References"
         android:padding="20dp"
         android:onClick="References"/>
     </LinearLayout>
+    </ScrollView>
 </LinearLayout>

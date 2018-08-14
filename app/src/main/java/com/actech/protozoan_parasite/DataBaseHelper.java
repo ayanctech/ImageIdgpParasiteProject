@@ -234,7 +234,7 @@ public class DataBaseHelper extends SQLiteAssetHelper {
 
         qb.setTables(sqlTables);
         Cursor c = qb.query(db, sqlSelect, null, null,
-                null, null, null);
+                null, null, "name ASC");
 
         c.moveToFirst();
         while (!c.isAfterLast()) {

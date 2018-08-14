@@ -64,6 +64,8 @@ public class Plasmodium extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plasmodium);
 
+        getSupportActionBar().hide();
+
         Intent intent=getIntent();
         id=intent.getIntExtra("id",0);
         subid=intent.getStringExtra("sub_id");

@@ -105,9 +105,14 @@ public class HostParasiteDatabase extends AppCompatActivity {
     }
 
     public void gofetch(View view) {
-        hp=mydbhelper.getHostpar(nam,orgn);
-        hladp=new HostParListAdap(this,hp);
-        lvw.setAdapter(hladp);
+        if(nam=="Choose Animal Name" || orgn=="Choose Organ"){
+            Toast.makeText(getApplicationContext(),"Please choose a valid entry ",Toast.LENGTH_SHORT).show();
+        }
+        else {
+            hp = mydbhelper.getHostpar(nam, orgn);
+            hladp = new HostParListAdap(this, hp);
+            lvw.setAdapter(hladp);
+        }
 
     }
 

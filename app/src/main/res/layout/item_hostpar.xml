@@ -33,7 +33,7 @@
         android:layout_below="@+id/textView"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="40dp"
-        android:text="Organ Affected"
+        android:text="Organ Affected :"
         android:textColor="#000"
         android:textSize="18sp"
         android:background="#91e234"/>
@@ -55,7 +55,7 @@
         android:layout_below="@+id/textView4"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="30dp"
-        android:text="Type of Parasite"
+        android:text="Type of Parasite :"
         android:textColor="#000"
         android:textSize="18sp"
         android:background="#91e234"/>
@@ -77,7 +77,7 @@
         android:layout_marginLeft="30dp"
         android:layout_below="@+id/textView6"
         android:layout_marginTop="40dp"
-        android:text="Parasite :"
+        android:text="Parasite Name :"
         android:textColor="#000"
         android:textSize="18sp"
         android:background="#91e234"/>
@@ -86,11 +86,13 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView7"
-        android:layout_alignTop="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
         android:text="TextView"
-        android:textSize="18sp"
-        android:textColor="#f43a10"/>
+        android:textColor="#f43a10"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>
