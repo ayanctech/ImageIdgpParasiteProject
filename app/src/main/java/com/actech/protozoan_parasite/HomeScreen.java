@@ -14,7 +14,7 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-
+        getSupportActionBar().hide();
         Button btn = findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,5 +23,9 @@ public class HomeScreen extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    public void dev(View view) {
+        startActivity(new Intent(getApplicationContext(),devs.class));
     }
 }

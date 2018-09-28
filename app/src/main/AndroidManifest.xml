@@ -9,10 +9,10 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icar"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:roundIcon="@drawable/icar"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".HomeScreen">
@@ -48,7 +48,7 @@
         <activity
             android:name=".Plasmodium"
             android:screenOrientation="landscape"
-            android:theme="@style/generalnotitle"/>
+            android:theme="@style/generalnotitle" />
         <activity
             android:name=".popup_layout"
             android:theme="@android:style/Theme.Holo.Light.Dialog" />
@@ -61,7 +61,8 @@
         <activity android:name=".popup2" />
         <activity android:name=".Sercomastigophora" />
         <activity android:name=".proj_ack" />
-        <activity android:name=".devack"></activity>
+        <activity android:name=".devack" />
+        <activity android:name=".devs"></activity>
     </application>
 
 </manifest>

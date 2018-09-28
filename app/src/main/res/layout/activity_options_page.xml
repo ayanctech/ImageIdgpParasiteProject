@@ -4,18 +4,20 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:padding="20dp"
-    android:background="#ff9933"
+    android:padding="15dp"
+    android:background="@drawable/gv3"
     >
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Main menu"
         android:textStyle="bold"
         android:textColor="#050c18"
         android:textSize="30sp"
         android:gravity="center"
+        android:background="#dcd43c"
         android:layout_marginBottom="40dp"/>
 
     <ScrollView android:layout_height="match_parent"
@@ -25,82 +27,91 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center">
+
     <Button
         android:id="@+id/genus"
-        android:background="#e7241d"
+        android:background="@drawable/butt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Genus Level"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:padding="15dp"
         android:onClick="GenusLevel"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/species"
-        android:background="#dcea11"
+        android:background="@drawable/butt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Species Level"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:padding="15dp"
         android:onClick="SpeciesLevel"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/treatment"
-        android:background="#12701a"
-        android:layout_marginBottom="10dp"
+        android:background="@drawable/butt"
+        android:layout_marginBottom="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="Treatment"
-        android:padding="20dp"
+        android:padding="15dp"
         android:onClick="Treatment"/>
     <Button
         android:id="@+id/diagnosis"
-        android:background="#48f122"
+        android:background="@drawable/butt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diagnosis"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:padding="15dp"
         android:onClick="Diagnosis"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/hostparadb"
-        android:background="#22aff1"
+        android:background="@drawable/butt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Host Parasite Database"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:padding="15dp"
         android:onClick="HostParasiteDatabase"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/scname"
-        android:background="#c822f1"
-        android:layout_marginBottom="10dp"
+        android:background="@drawable/butt"
+        android:layout_marginBottom="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Scientific Name"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:padding="15dp"
         android:onClick="ScientificName"/>
 
     <Button
         android:id="@+id/ack"
-        android:background="#2230f1"
+        android:background="@drawable/butt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Acknowledgements"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:padding="15dp"
         android:onClick="Acknowledgements"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/references"
-        android:background="#f12259"
+        android:background="@drawable/butt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="References"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:padding="15dp"
         android:onClick="References"/>
     </LinearLayout>
     </ScrollView>

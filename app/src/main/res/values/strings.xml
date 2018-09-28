@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Protozoan Parasite</string>
+    <string name="app_name">Protozoan \nParasite</string>
     <string name="title">Application for Protozoan parasitic diseases in animals</string>
 
     <string name="instructions">There are certain rules for searching the Host Parasite Database.Choos one of the Host Animal Name and One of the Organ type and then search Go .It will show UP the list of Parsitic activity in the respective organ of the selected Animal with Parasite Type and Name.                                 .</string>
@@ -7,4 +7,8 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_ack_dev">AckDev</string>
+
+    <string name="desc">EASTERN REGIONAL STATION OF ICAR-IVRI, KOLKATA\n
+        &amp;\n
+        ICAR RESEARCH COMPLEX FOR NEH REGION</string>
 </resources>
